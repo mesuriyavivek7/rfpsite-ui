@@ -1,0 +1,108 @@
+.header{
+    margin-top:4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+    background-color:#0B60B0;
+}
+.inputContainer{
+    display: grid;
+    grid-template-columns: repeat(6,10rem);
+    gap: 1rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, .2);
+}
+.item-1{
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+.item-2{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.item-6{
+    grid-column-start:2;
+    grid-column-end: 4;
+}
+.item-7{
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.inputBox{
+    padding: .8rem 1rem;
+    color: gray;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+}
+.inputDateBox{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: .8rem 1rem;
+    gap: .5rem;
+    position: relative;
+}
+.inputBoxText{
+    color: gray;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top:60px;
+    right: 0;
+}
+.multyInput{
+    border: none;
+    background-color: white;
+    color: gray;
+    font-size: 1rem;
+    padding:.5rem 0rem;
+}
+.multyselect{
+    width: 100%;
+}
+.item-8{
+    display: flex;
+    align-items: center;
+}
+.item-12{
+    grid-column-start:5;
+    grid-column-end: 7;
+}
+.SampleInfoText{
+    color: black;
+    font-size: 1rem;
+}
+.SampleCheckBox{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+.CheckBoxText{
+    font-size: 1rem;
+}
+.SearchClearBtn,.SearchBtn{
+   padding:.6rem .8rem;
+   border: none;
+   cursor: pointer;
+   background-color: #0B60B0;
+   color: white;
+   width: 100%;
+   font-weight: bold;
+   transition: .2s linear;
+}
+.SearchClearBtn{
+    background-color: #40A2E3;
+}
+.SearchClearBtn:hover{
+    background-color: white;
+    color: #40A2E3;
+}
+.SearchBtn:hover{
+    background-color:white;
+    color: #0B60B0;
+}
